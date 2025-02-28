@@ -1,0 +1,8 @@
+{
+    "name": "matterbridge-gira",
+    "type": "DynamicPlatform",
+    "version": "0.0.1",
+    "useInterval": true,
+    "debug": true,
+    "unregisterOnShutdown": false
+  }
