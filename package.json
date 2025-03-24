@@ -1,13 +1,21 @@
 {
   "name": "matterbridge-gira",
-  "version": "0.1.0-dev.7",
+  "version": "0.1.0-dev.8",
   "description": "Matterbridge Gira X1 plugin",
   "author": "Felix Schuppert, Wolfgang Willinghöfer",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wowi1968/matterbridge-gira.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wowi1968/matterbridge-gira/issues"
+  },
   "keywords": [
+    "Gira",
     "matterbridge",
     "matter",
     "matter.js"
