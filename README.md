@@ -31,7 +31,7 @@ matterbridge
 
 install matterbridge-gira plug in:
 
-![Add Gira Plugin](<img src="https://github.com/wowi1968/matterbridge-gira/tree/main/docs/images/install_add_gira_plugin.jpg?raw=true" alt="Add Gira Plugin">)
+![Add Gira Plugin](<img src="https://raw.githubusercontent.com/wowi1968/matterbridge-gira/refs/heads/main/docs/images/install_add_gira_plugin.jpg">)
 
 open matterbrige-gira plugin configuration dialog:
 
