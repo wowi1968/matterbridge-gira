@@ -35,19 +35,19 @@ install matterbridge-gira plug in:
 
 open matterbrige-gira plugin configuration dialog:
 
-<img src="https://github.com/wowi1968/matterbridge-gira/tree/main/docs/images/configure_plugin.jpg" alt="Open Gira Plugin configuration dialog">
+![Open Gira Plugin configuration dialog](https://raw.githubusercontent.com/wowi1968/matterbridge-gira/refs/heads/main/docs/images/configure_plugin.jpg)
 
 configure matterbridge-gia plugin:
 
-<img src="https://github.com/wowi1968/matterbridge-gira/tree/main/docs/images/configure_dialog_plugin.jpg" alt="Gira Plugin configuration">
+![Gira Plugin configuration](https://raw.githubusercontent.com/wowi1968/matterbridge-gira/refs/heads/main/docs/images/configure_dialog_plugin.jpg)
 
 save configuration changes and restart matterbridge:
 
-<img src="https://github.com/wowi1968/matterbridge-gira/tree/main/docs/images/restart_matterbridge.jpg" alt="Restart Matterbridge Gira Plugin">
+![Restart Matterbridge Gira Plugin](https://raw.githubusercontent.com/wowi1968/matterbridge-gira/refs/heads/main/docs/images/restart_matterbridge.jpg)
 
 after restart check discovered devices:
 
-<img src="https://github.com/wowi1968/matterbridge-gira/tree/main/docs/images/matterbridge_devices.jpg" alt="Check discovered devices page">
+![Check discovered devices page](https://raw.githubusercontent.com/wowi1968/matterbridge-gira/refs/heads/main/docs/images/matterbridge_devices.jpg)
 
 ### Home Assistant
 
