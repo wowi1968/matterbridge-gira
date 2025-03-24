@@ -1,4 +1,4 @@
-# <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Logo_Gira_Giersiepen.svg" alt="Gira Logo" width="64px" height="64px">&nbsp;&nbsp;&nbsp;Matterbridge plugin for Gira IoT REST API
+# <img src="https://upload.wikimedia.org/wikipedia/commons/2/20/Logo_Gira_Giersiepen.svg" alt="Gira Logo">&nbsp;&nbsp;&nbsp;Matterbridge plugin for Gira IoT REST API
 
 Matterbridge plugin for Gira IoT REST API can be used with the folling Gira Server Product
 
