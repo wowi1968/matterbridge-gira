@@ -1,0 +1,37 @@
+{
+    "title": "Matterbridge Gira X1 plugin",
+    "description": "matterbridge-gira v. 0.0.1 by Felix Schuppert, Wolfgang Willinghöfer",
+    "type": "object",
+    "properties": {
+      "name": {
+        "description": "Plugin name",
+        "type": "string",
+        "readOnly": true
+      },
+      "type": {
+        "description": "Plugin type",
+        "type": "string",
+        "readOnly": true
+      },
+      "deviceIp": {
+        "description": "IP address/hostname of Gira IoT REST API server",
+        "type": "string"
+      },
+      "host": {
+        "description": "IP address/hostname of Matterbridge host for Gira IoT REST callback",
+        "type": "string"
+      },
+      "hostPort": {
+        "description": "Port of Matterbridge host for Gira IoT REST callback",
+        "type": "string"
+      },
+      "username": {
+        "description": "Username",
+        "type": "string"
+      },
+      "password": {
+        "description": "Password",
+        "type": "string"
+      }
+    }
+  }

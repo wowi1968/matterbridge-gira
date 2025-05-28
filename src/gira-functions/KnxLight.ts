@@ -1,7 +1,8 @@
 import { GiraIotRestFunction } from '../iot-rest-api/index.js';
 import { MatterbridgeGiraIotRestApi } from '../platformGiraIotRestApi.js';
 
-import { MatterbridgeEndpoint, LevelControlCluster, OnOffCluster, bridgedNode, dimmableLight } from 'matterbridge';
+import { MatterbridgeEndpoint, bridgedNode, dimmableLight } from 'matterbridge';
+import { LevelControlCluster, OnOffCluster } from 'matterbridge/matter/clusters';
 import { Scaler } from './Scaler.js';
 
 export class KnxLight {

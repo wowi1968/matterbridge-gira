@@ -1,7 +1,8 @@
 import { GiraIotRestFunction } from '../iot-rest-api/index.js';
 import { MatterbridgeGiraIotRestApi } from '../platformGiraIotRestApi.js';
 
-import { MatterbridgeEndpoint, bridgedNode, WindowCovering, coverDevice, powerSource } from 'matterbridge';
+import { MatterbridgeEndpoint, bridgedNode, coverDevice, powerSource } from 'matterbridge';
+import { WindowCovering } from 'matterbridge/matter/clusters';
 import { Scaler } from './Scaler.js';
 
 export class Covering {

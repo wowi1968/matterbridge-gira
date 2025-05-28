@@ -1,7 +1,8 @@
 import { GiraIotRestFunction } from '../iot-rest-api/index.js';
 import { MatterbridgeGiraIotRestApi } from '../platformGiraIotRestApi.js';
 
-import { MatterbridgeEndpoint, OnOffCluster, bridgedNode, onOffLight } from 'matterbridge';
+import { MatterbridgeEndpoint, bridgedNode, onOffLight } from 'matterbridge';
+import { OnOffCluster } from 'matterbridge/matter/clusters';
 
 export class Switch {
   private plugin: MatterbridgeGiraIotRestApi;
