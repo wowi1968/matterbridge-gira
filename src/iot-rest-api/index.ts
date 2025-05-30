@@ -19,8 +19,16 @@ export type GiraIotRestConfig = {
   functions: GiraIotRestFunction[];
 };
 
-export type GiraIotRestChannelType = 'de.gira.schema.channels.KNX.Dimmer' | 'de.gira.schema.channels.Switch' | 'de.gira.schema.channels.BlindWithPos';
-export type GiraIotRestFunctionType = 'de.gira.schema.functions.KNX.Light' | 'de.gira.schema.functions.Switch' | 'de.gira.schema.functions.Covering';
+export type GiraIotRestChannelType =
+  | 'de.gira.schema.channels.KNX.Dimmer'
+  | 'de.gira.schema.channels.Switch'
+  | 'de.gira.schema.channels.BlindWithPos'
+  | 'de.gira.schema.channels.Hue.Light';
+export type GiraIotRestFunctionType =
+  | 'de.gira.schema.functions.KNX.Light'
+  | 'de.gira.schema.functions.Switch'
+  | 'de.gira.schema.functions.Covering'
+  | 'de.gira.schema.functions.Hue.Light';
 
 export type GiraIotRestDataPoint = {
   name: string;
@@ -186,7 +194,7 @@ export class GiraIotRestApiConnector {
           evMapped,
         );
       });
-      console.log('Mapped event', ev.uid, evMapped);
+      // console.log('Mapped event', ev.uid, evMapped);
     });
   }
 

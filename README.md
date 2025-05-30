@@ -67,4 +67,5 @@ ATTENTION: Currently Home Assistant official Matterbridge Add-on can not be used
 | Colored light     | de.gira.schema.functions.ColoredLight |                |                               |
 | Tunable white     | de.gira.schema.functions.TunalbeLight |                |                               |
 | Shutter and Blind | de.gira.schema.functions.Covering     | Cover          | ✔️  | (no slats supported yet) |
+| Hue               | de.gira.schema.functions.Hue.Light    | Color          | ✔️  | (Apple Home: only tunable white )
 

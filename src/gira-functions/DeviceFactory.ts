@@ -1,6 +1,6 @@
 import { GiraIotRestFunction } from '../iot-rest-api/index.js';
 import { MatterbridgeGiraIotRestApi } from '../platformGiraIotRestApi.js';
-import { KnxLight, Switch, Covering } from './index.js';
+import { KnxLight, Switch, Covering, HueLight } from './index.js';
 
 // eslint-disable-next-line @typescript-eslint/no-extraneous-class
 export class DeviceFactory {
@@ -11,14 +11,19 @@ export class DeviceFactory {
         knxLightDevice.init();
         break;
       }
-      case 'de.gira.schema.functions.Switch':{
+      case 'de.gira.schema.functions.Switch': {
         const switchDevice = new Switch(plugin, element);
         switchDevice.init();
         break;
       }
-      case 'de.gira.schema.functions.Covering':{
+      case 'de.gira.schema.functions.Covering': {
         const coveringDevice = new Covering(plugin, element);
         coveringDevice.init();
+        break;
+      }
+      case 'de.gira.schema.functions.Hue.Light': {
+        const hueLightDevice = new HueLight(plugin, element);
+        hueLightDevice.init();
         break;
       }
     }
